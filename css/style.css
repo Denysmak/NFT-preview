@@ -1,0 +1,163 @@
+ /* Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG):  Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+
+margin: 0%;
+padding: 0%;
+
+}
+
+body{
+height: 100%;
+width: 100%;    
+position: fixed;
+margin: 0%;
+padding: 0%;
+background-color: hsl(217, 54%, 11%);
+font-family: 'Outfit', sans-serif;
+
+
+}
+
+main{
+border-radius: 10px;    
+position: absolute;
+height: 600px; width: 350px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+background-color: hsl(216, 50%, 16%);
+box-shadow:   hsl(217, 78%, 5%) 0px 20px 30px 3px;
+
+}
+.img{
+margin-top: 22px;
+margin-left: 22px;
+margin-right: 22px;
+height: 52%;
+background-image: url(../images/image-equilibrium.jpg);
+border-radius: 6px;
+background-size: cover;
+overflow: hidden;
+
+
+}
+.inside{
+
+height: 100%;
+width: 100%;
+
+}
+.inside:hover{
+
+background-color: hsla(178, 100%, 50%,0.5);
+background-image: url(../images/icon-view.svg);
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+}
+
+h3{
+margin-top: 22px;
+margin-left: 22px;
+font-weight: 600;
+font-size: 22px;
+
+}
+.two{
+
+font-weight: 200;
+font-size: 18px;
+margin-top: 18px;
+margin-left: 22px;
+color: rgb(171, 159, 226);
+width: 300px;
+}
+
+.almostfooter{
+margin: 22px;
+position: relative;
+
+height: 20px;
+}
+.number{
+
+float: left;
+
+}
+.numba{
+
+position: absolute;
+left: 20px;
+color:  hsl(178, 100%, 50%);
+
+}
+.right{
+
+width: 97px;
+float: right;
+
+}
+.clock{
+
+float: left;
+
+}
+.days{
+
+float: right;
+color: rgb(171, 159, 226);
+}
+
+footer{
+
+border-top: hsl(215, 32%, 27%) 1px solid;
+margin-left: 22px;
+margin-right: 22px;
+overflow: hidden;
+position: relative;
+}
+.dude{
+margin-top: 20px;
+border-radius: 50%;
+border: white 2px solid;
+width: 30px;
+float: left;
+
+}
+.Jules{
+position: absolute;
+left: 50px;
+top: 25px;
+
+}
+p{
+
+display: inline-block;
+
+}
+.create{
+
+font-weight: 200;
+color: rgb(171, 159, 226);
+}
+.fot{
+
+position: absolute;
+left: 50px;
+top: 25px;
+
+
+}
+/* .inside{
+
+height: ;
+
+} */
